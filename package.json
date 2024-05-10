@@ -1,0 +1,13 @@
+{
+  "name": "blazorwpf1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "dotnet watch",
+    "tailwind":  "npx tailwindcss -i ./Src/Styles/tailwind.css -o ./wwwroot/css/tailwind.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
